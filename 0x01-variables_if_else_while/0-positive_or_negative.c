@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Starting point
- *
- * return: Always 0
+ * main - Assigns randm numbers to int n each time
+ * it executes then prints its value
+ * return: Always 0 (Success)
  */
 int main(void)
 {

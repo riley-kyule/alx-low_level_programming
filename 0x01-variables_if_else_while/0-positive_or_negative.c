@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - assigns random number to int n each time
- * then executes and prints it
- * return: ALways 0
+ * main - Starting point
+ *
+ * return: Always 0
  */
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is posiive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{

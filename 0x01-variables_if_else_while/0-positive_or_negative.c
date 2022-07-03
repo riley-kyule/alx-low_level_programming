@@ -2,8 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - Entry Point*/
-/* return: Always 0 (Success)*/
+/**
+ * main - Entry Point
+ * Return: 0 Always
+ */
 int main(void)
 {
 	int n;

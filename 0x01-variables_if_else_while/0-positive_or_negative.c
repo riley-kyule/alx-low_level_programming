@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Assigns randm numbers to int n each time
- * it executes then prints its value
+ * main - Entry Point
+ *
  * return: Always 0 (Success)
  */
 int main(void)

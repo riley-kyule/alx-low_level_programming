@@ -6,7 +6,7 @@
  * @b: Second integer in the equation
  * Return: Operation Result
  */
-int mul(int a. int b)
+int mul(int a, int b)
 {
 	int c;
 

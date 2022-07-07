@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - Check code
  * Return: 0 (Success)

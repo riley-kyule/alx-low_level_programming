@@ -4,7 +4,7 @@ int bandersnatch(char *s1, char *s2);
 char *move(char *s2);
 
 /**
- * widcmp - compares two strings recursively,
+ * wildcmp - compares two strings recursively,
  * checking for wildcards expansion
  * @s1: first string to compare
  * @s2: second string to compare
@@ -25,7 +25,7 @@ int wildcmp(char *s1, char *s2)
 	 * and if the next chars of s2 are *, return 1
 	 */
 
-	if (*s1 == '\0' && *s2 == '*' && !*move (s2))
+	if (*s1 == '\0' && *s2 == '*' && !*move(s2))
 		return (1);
 
 	/**
@@ -72,7 +72,7 @@ int wildcmp(char *s1, char *s2)
 }
 
 /**
- * bandersnatch - checks recursively for all the paths when the 
+ * bandersnatch - checks recursively for all the paths when the
  * characters are equal
  * @s1: first string
  * @s2: second string
